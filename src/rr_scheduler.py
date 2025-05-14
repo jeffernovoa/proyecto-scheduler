@@ -1,4 +1,4 @@
-from scheduler import Scheduler
+from src.scheduler import Scheduler
 from collections import deque
 
 class RoundRobinScheduler(Scheduler):

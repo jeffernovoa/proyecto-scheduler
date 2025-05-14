@@ -1,4 +1,4 @@
-from scheduler import Scheduler
+from src.scheduler import Scheduler
 
 class FCFSScheduler(Scheduler):
     def planificar(self, procesos):
