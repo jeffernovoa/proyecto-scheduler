@@ -1,6 +1,6 @@
 import json
 import csv
-from proceso import Proceso
+from src.proceso import Proceso
 
 def guardar_json(ruta, procesos):
     with open(ruta, 'w') as f:
